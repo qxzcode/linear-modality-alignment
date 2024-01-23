@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+*.pyo
+
+cc12m_image_embeddings/
+wandb/
+VQAv2/
