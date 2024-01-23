@@ -10,7 +10,7 @@
 
 This is Quinn Tucker's term project for Natural Language Processing I in Fall 2023.
 
-My written report is in `Quinn_NLP_Term_Project_Report.pdf`. The rest of this repository contains my code and trained checkpoints.
+My written report is in [`Quinn_NLP_Term_Project_Report.pdf`](Quinn_NLP_Term_Project_Report.pdf). The rest of this repository contains my code and trained checkpoints.
 
 ## How to train the adapter models
 
@@ -43,6 +43,6 @@ Once the models load, you will be dropped into a prompt that says `User:`. From 
    - `./VQAv2/val2014/COCO_val2014_*.jpg`: The COCO validation images. (VQAv2 uses images from the COCO dataset.)
  - `/reset`: Clears the prompt history and starts a new conversation.
  - Any other text will be sent to the model as a user message/prompt.
-   - To include an image in your prompt, use the following syntax: `<image:reverse.png>`. In this example, `reverse.png` will be replaced by the adapted image embedding token(s).
+   - To include an image in your prompt, use the following syntax: `<image:reverse.png>`. In this example, the text `reverse.png` will be replaced by the adapted image embedding token(s).
 
 Press Ctrl-C twice to exit the program.
