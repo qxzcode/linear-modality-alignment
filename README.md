@@ -1,8 +1,16 @@
 # Combining Pre-Trained Unimodal Models with a Single Fully-Connected Layer
 
+<div style="text-align: center;">
+
+  ![Figure 1, illustrating the multimodal model architecture used in the experiments.](figure1.svg)
+
+</div>
+
+> **Abstract:** Large vision-language models are expensive to train from scratch. However, recent work has demonstrated that pre-trained unimodal models can be combined by connecting them with a learned "adapter". In this project I experiment with a single fully-connected layer as the adapter and show that the resulting system has nontrivial multimodal capabilities.
+
 This is Quinn Tucker's term project for Natural Language Processing I in Fall 2023.
 
-My written report is in `Quinn_NLP_Term_Project_Report.pdf`. The rest of this submission contains my code.
+My written report is in `Quinn_NLP_Term_Project_Report.pdf`. The rest of this repository contains my code and trained checkpoints.
 
 ## How to train the adapter models
 
